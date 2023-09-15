@@ -1,0 +1,14 @@
+package:
+  name: AES_TjIn
+  authors:
+    - "Chiara Ghinami"
+
+sources:
+  - files:
+      - src/aes_128.sv
+      - src/lfsr.sv
+      - src/round.sv
+      - src/table.sv
+      - src/Trojan_Trigger.sv
+      - src/TSC.sv
+      - src/top.sv
