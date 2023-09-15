@@ -20,7 +20,7 @@
 module Trojan_Trigger(
     input rst,
     input [127:0] state,
-    output Tj_Trig
+    output reg Tj_Trig
     );
 
 	always @(rst, state)
