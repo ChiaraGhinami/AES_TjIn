@@ -23,7 +23,7 @@ module TSC(
 	input Tj_Trig, 
     input [127:0] key,
 	input [127:0] data,
-	output [63:0] load
+	output reg [63:0] load
 );
 
 	wire [19: 0] counter;
